@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:700');
+
+body {
+  background-color: #EAF5FF;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.round-profile {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.profile-pic {
+  background-image: url("../images/profile.png")
+  height: 150px;
+  width: 150px;
+}
+
+a {
+text-decoration: none;
+list-style: none;
+}
+
+div {
+/*background: white;*/
+padding: 30px;
+border-radius: 4px;
+/*box-shadow: 0 10px 30px rgba(0,0,0,.1);*/
+text-align: center;
+}
+
+a:hover {
+  color: #0C084C;
+}
+
+.card-white {
+    background: white;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    padding: 40px;
+    /*width: 600px;*/
+    margin: 20px auto;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.box-space {
+  font-family:'Roboto Slab', serif;
+  padding: 12px;
+}
+
+.box-social {
+  padding: 6px;
+  font-size: 20px
+}
+
+.container {
+   width: 500px;
+  margin: 0 auto
+}
